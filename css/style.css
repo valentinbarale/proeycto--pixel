@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
 body {
-        background-color: white;
+        background-color: black;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
 }*{
         margin: 0;
         padding: 0;
@@ -14,7 +17,7 @@ h1 {
 
 
 header, footer {
-       position: absolute;
+       position: relative;
        background-color: #000;
        width: 100%;
         color: white;
@@ -29,6 +32,7 @@ header h2 {
         margin-top: 20px;
         left: 20%;
         color: green;
+        text-decoration: none;
 }
 
 footer {
@@ -71,7 +75,7 @@ section {
         background-color: green;
         border: 200px red;
         padding: 10px;
-        margin: 30px 5px 50px 35px;  
+        margin: 30px 20px 50px 35px;  
         font-size: larger;
 }
 
